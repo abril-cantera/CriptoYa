@@ -8,13 +8,41 @@
   <title>CrptoYa</title>
 </head>
 <body>
-  <form action="">
-  <input id="exchange" placeholder="exchange" type="text">
-  <input id="coin" placeholder="coin" type="text">
-  <input id="fiat" placeholder="fiat" type="text">
-  <input id="volumen" placeholder="volumen" type="number">
-  <button type="button" class="btn" id="btn" onclick="consultarExchange()">Exchange</button>
-  </form>
+  <div class="body">
+    <form class="container-form">
+    <input id="exchange" placeholder="exchange" type="text">
+    <input id="coin" placeholder="coin" type="text">
+    <input id="fiat" placeholder="fiat" type="text">
+    <input id="volumen" placeholder="volumen" type="number">
+    <button type="button" class="btn" id="btn" onclick="consultarExchange()">Exchange</button>
+    </form>
+
+    <div class="container-info">
+      <section class="container-input">
+        <h5 id="exchangeValueInput">exchange</h5>
+        <h5 id="coinValueInput">coin</h5>
+        <h5 id="fiatValueInput">fiat</h5>
+        <h5 id="volumenValueInput">volumen</h5>
+      </section>
+
+      <section class="container-titles">
+        <h3>Precio de compra del banco(Sin comisión)</h3>
+        <h3>Precio de compra final(Con comisión)</h3>
+        <h3>Precio de venta del banco(Sin comisión)</h3>
+        <h3>Precio de venta del banco(Con comisión)</h3>
+        <h3>Tiempo en que se actualizó la cotización</h3>
+      </section>
+      
+      <section class="container-calc">
+        <h5 id="ask">ask</h5>
+        <h5 id="totalAsk">totalAsk</h5>
+        <h5 id="bid">bid</h5>
+        <h5 id="totalBid">totalBid</h5>
+        <h5 id="time">time</h5>
+      </section>
+    </div>
+
+  </div>
 
   <script src="./main.js"></script>
 </body>
