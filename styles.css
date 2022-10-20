@@ -12,7 +12,7 @@ html {
   display: flex;
   flex-direction: column;
   padding: 25px;
-  max-width: 400px;
+  max-width: 415px;
   border: 1px solid;
   height: auto;
 }
@@ -35,7 +35,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 400px;
+  max-width: 415px;
   border: 1px solid;
   background-color: rgb(141, 162, 185);
   height: auto;
