@@ -12,6 +12,7 @@ body {
   background-image: url("https://acis.org.co/portal/sites/default/files/blockchain_4.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   font-family: "Silkscreen", cursive;
 }
 
@@ -81,7 +82,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 20px 0;
+  margin: 50px 0;
   background-color: rgba(14, 17, 97, 0.685);
   border-radius: 15px;
 }
