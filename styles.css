@@ -7,75 +7,102 @@ html {
   font-size: 62.5%;
 }
 
-.container-form {
-  background-color: rgb(141, 162, 185);
+/**/
+body {
+  background-image: url("https://acis.org.co/portal/sites/default/files/blockchain_4.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Silkscreen", cursive;
+}
+
+/**/
+.containerPrincipal {
   display: flex;
   flex-direction: column;
-  padding: 30px 25px;
-  max-width: 415px;
-  border: 1px solid;
-  height: auto;
+  padding: 0 10px;
+}
+
+/**/
+
+.containerHeader {
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  background-color: rgba(14, 17, 97, 0.685);
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+}
+
+/**/
+.container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .container-form input {
-  border: 1px solid;
+  height: 40px;
+  width: 200px;
+  margin: 10px 0;
+  padding-left: 10px;
+  border: none;
   border-radius: 5px;
-  margin: 10px;
-  padding-left: 5px;
-  height: 50px;
+  font-family: "Play", sans-serif;
 }
 .container-form button {
-  border: 1px solid;
+  height: 40px;
+  width: 100px;
+  border: none;
   border-radius: 5px;
-  margin: 5px;
-  height: 50px;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.55);
 }
+
+/**/
+.container-container-input {
+  width: 100%;
+  padding: 0 10px;
+}
+.container-input {
+  color: rgb(21, 13, 67);
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  background-color: rgba(240, 248, 255, 0.606);
+  border-radius: 15px;
+}
+.container-input h5 {
+  font-size: 1.4rem;
+  padding: 10px 10px;
+  font-family: "Play", sans-serif;
+}
+
+/**/
 
 .container-info {
+  color: rgb(255, 255, 255);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  max-width: 415px;
-  border: 1px solid;
-  background-color: rgb(141, 162, 185);
-  height: auto;
-  padding: 20px 0;
+  margin: 20px 0;
+  background-color: rgba(14, 17, 97, 0.685);
+  border-radius: 15px;
+}
+
+.container-info .container-titles {
+  font-size: 1.2rem;
 }
 .container-info .container-titles h3 {
-  padding-left: 10px;
-  margin: 20px 0;
-  font-size: 1.4rem;
-  border-left: 1px solid;
-  width: 140px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  width: 150px;
+  font-family: "Play", sans-serif;
+}
+#borderNone {
+  border-bottom: none;
 }
 
-.container-info .container-input {
-  display: flex;
-  flex-direction: column;
-}
-
-.container-info .container-input h5 {
-  font-size: 1.5rem;
-  margin: 20px;
-}
-.container-info .container-calc {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 .container-info .container-calc h5 {
-  padding-right: 10px;
-  padding-left: 20px;
-  margin: 20px 0;
-  font-size: 1.5rem;
-  border-left: 1px solid;
-}
-
-@media (min-width: 768px) {
-  .body {
-    display: flex;
-    justify-content: space-evenly;
-    height: 100vh;
-    align-items: center;
-  }
+  font-size: 1.4rem;
+  width: 110px;
+  padding: 17px;
+  border-left: 1px solid rgb(255, 255, 255);
+  font-family: "Play", sans-serif;
 }
