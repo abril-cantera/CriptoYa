@@ -7,14 +7,13 @@ html {
   font-size: 62.5%;
 }
 
-
 .container-form {
+  background-color: rgb(141, 162, 185);
   display: flex;
   flex-direction: column;
   padding: 10px;
   max-width: 400px;
   border: 1px solid;
-  border-radius: 10px;
 }
 .container-form input {
   border: 1px solid;
@@ -28,6 +27,7 @@ html {
   border-radius: 5px;
   margin: 5px;
   height: 40px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.55);
 }
 
 .container-info {
@@ -35,11 +35,10 @@ html {
   justify-content: space-between;
   align-items: center;
   max-width: 400px;
-  margin-top: 15px;
   border: 1px solid;
-  border-radius: 15px;
+  background-color: rgb(141, 162, 185);
 }
-.container-info .container-titles h3{
+.container-info .container-titles h3 {
   padding-left: 10px;
   margin: 20px 0;
   font-size: 1.2rem;
@@ -47,23 +46,22 @@ html {
   width: 120px;
 }
 
-.container-info .container-input h5{
+.container-info .container-input h5 {
   font-size: 1.5rem;
-  margin: 20px; 
+  margin: 20px;
 }
 .container-info .container-calc {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container-info .container-calc h5{
+.container-info .container-calc h5 {
   padding-right: 10px;
   padding-left: 20px;
   margin: 20px 0;
   font-size: 1.5rem;
   border-left: 1px solid;
 }
-
 
 @media (min-width: 768px) {
   .body {
