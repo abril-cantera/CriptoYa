@@ -11,7 +11,7 @@ html {
   background-color: rgb(141, 162, 185);
   display: flex;
   flex-direction: column;
-  padding: 25px;
+  padding: 30px 25px;
   max-width: 415px;
   border: 1px solid;
   height: auto;
@@ -38,15 +38,15 @@ html {
   max-width: 415px;
   border: 1px solid;
   background-color: rgb(141, 162, 185);
-  height: 50vh;
+  height: auto;
   padding: 20px 0;
 }
 .container-info .container-titles h3 {
   padding-left: 10px;
   margin: 20px 0;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   border-left: 1px solid;
-  width: 170px;
+  width: 140px;
 }
 
 .container-info .container-input {
