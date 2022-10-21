@@ -20,11 +20,19 @@
 
     <div class="containerPrincipal">
       <div class="containerFormInfo">
-        <form class="container-form">
-          <input id="exchange" placeholder="exchange" type="text" />
-          <input id="coin" placeholder="coin" type="text" />
-          <input id="fiat" placeholder="fiat" type="text" />
-          <input id="volumen" placeholder="volumen" type="number" />
+        <form id="form" class="container-form">
+          <input
+            id="exchange"
+            placeholder="Proveedor a consultar"
+            type="text"
+          />
+          <input id="coin" placeholder="Cripto a operar" type="text" />
+          <input
+            id="fiat"
+            placeholder="Moneda con la que se opera"
+            type="text"
+          />
+          <input id="volumen" placeholder="Cantidad a operar" type="number" />
           <button
             type="button"
             class="btn"
@@ -37,10 +45,10 @@
 
         <section class="container-container-input">
           <section class="container-input">
-            <h5 id="exchangeValueInput">Exchange</h5>
-            <h5 id="coinValueInput">Coin</h5>
-            <h5 id="fiatValueInput">Fiat</h5>
-            <h5 id="volumenValueInput">Volumen</h5>
+            <h5 id="exchangeValueInput">Proveedor a consultar</h5>
+            <h5 id="coinValueInput">Cripto a operar</h5>
+            <h5 id="fiatValueInput">Moneda con la que se opera</h5>
+            <h5 id="volumenValueInput">Cantidad a operar</h5>
           </section>
         </section>
       </div>
@@ -55,11 +63,11 @@
         </section>
 
         <section class="container-calc">
-          <h5 id="ask">ask</h5>
-          <h5 id="totalAsk">totalAsk</h5>
-          <h5 id="bid">bid</h5>
-          <h5 id="totalBid">totalBid</h5>
-          <h5 id="time">time</h5>
+          <h5 id="ask">-</h5>
+          <h5 id="totalAsk">-</h5>
+          <h5 id="bid">-</h5>
+          <h5 id="totalBid">-</h5>
+          <h5 id="time">-</h5>
         </section>
       </div>
     </div>
