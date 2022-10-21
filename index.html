@@ -19,29 +19,31 @@
     </header>
 
     <div class="containerPrincipal">
-      <form class="container-form">
-        <input id="exchange" placeholder="exchange" type="text" />
-        <input id="coin" placeholder="coin" type="text" />
-        <input id="fiat" placeholder="fiat" type="text" />
-        <input id="volumen" placeholder="volumen" type="number" />
-        <button
-          type="button"
-          class="btn"
-          id="btn"
-          onclick="consultarExchange()"
-        >
-          Exchange
-        </button>
-      </form>
+      <div class="containerFormInfo">
+        <form class="container-form">
+          <input id="exchange" placeholder="exchange" type="text" />
+          <input id="coin" placeholder="coin" type="text" />
+          <input id="fiat" placeholder="fiat" type="text" />
+          <input id="volumen" placeholder="volumen" type="number" />
+          <button
+            type="button"
+            class="btn"
+            id="btn"
+            onclick="consultarExchange()"
+          >
+            Exchange
+          </button>
+        </form>
 
-      <section class="container-container-input">
-        <section class="container-input">
-          <h5 id="exchangeValueInput">Exchange</h5>
-          <h5 id="coinValueInput">Coin</h5>
-          <h5 id="fiatValueInput">Fiat</h5>
-          <h5 id="volumenValueInput">Volumen</h5>
+        <section class="container-container-input">
+          <section class="container-input">
+            <h5 id="exchangeValueInput">Exchange</h5>
+            <h5 id="coinValueInput">Coin</h5>
+            <h5 id="fiatValueInput">Fiat</h5>
+            <h5 id="volumenValueInput">Volumen</h5>
+          </section>
         </section>
-      </section>
+      </div>
 
       <div class="container-info">
         <section class="container-titles">
